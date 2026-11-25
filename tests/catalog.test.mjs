@@ -51,6 +51,18 @@ test('contato, coalescência, espaçamento e pausa do provedor',async()=>{
   await assert.rejects(pause('artist',{query:'x'}),{status:503});
   await assert.rejects(async()=>pause('artist',{query:'y'}),{status:503});assert.equal(limited,1);
 });
+test('pausa sem Retry-After usa espera progressiva e reduz novas tentativas',async()=>{
+  let time=1_000,limited=0;
+  const pause=createMusicBrainzRequest({getContact:()=> 'test@capa.test',spacing:0,now:()=>time,fetcher:async()=>{
+    limited++;return new Response('',{status:503});
+  }});
+  await assert.rejects(pause('artist',{query:'primeira'}),error=>error.status===503&&error.retryAfter===60);
+  await assert.rejects(async()=>pause('artist',{query:'cedo demais'}),error=>error.status===503&&error.retryAfter===60);
+  assert.equal(limited,1);
+  time+=60_000;
+  await assert.rejects(async()=>pause('artist',{query:'segunda'}),error=>error.status===503&&error.retryAfter===120);
+  assert.equal(limited,2);
+});
 test('fallback distingue artistas, discos e faixas e aplica filtros; importação conserva IDs sociais',async t=>{
   const seed={id:'antigo',title:'Disco de teste',artist:'Banda de teste',artistId:'banda',year:2026,type:'Álbum',genre:'Rock',
     source:'https://musicbrainz.org/release/'+release,tracks:[{id:'faixa-antiga',title:'Canção'}]};

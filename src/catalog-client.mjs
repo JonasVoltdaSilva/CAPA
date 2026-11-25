@@ -34,6 +34,7 @@ export function createMusicBrainzRequest({
   let gate = Promise.resolve();
   let nextStart = 0;
   let cooldown = 0;
+  let providerFailures = 0;
   const pauseError = () => catalogError(503, 'O MusicBrainz pediu uma pausa nas consultas. Tente novamente em instantes.',
     { retryAfter: Math.max(1, Math.ceil((cooldown - now()) / 1000)) });
 
@@ -57,12 +58,16 @@ export function createMusicBrainzRequest({
       if (response.status === 429 || response.status === 503) {
         const raw = response.headers.get('Retry-After');
         const until = /^\d+$/.test(raw || '') ? now() + Number(raw) * 1000 : Date.parse(raw);
-        cooldown = Math.max(now() + 4000, Number.isFinite(until) ? until : 0);
+        providerFailures++;
+        const backoff = Math.min(30 * 60_000, 60_000 * (2 ** Math.min(providerFailures - 1, 5)));
+        cooldown = Math.max(now() + backoff, Number.isFinite(until) ? until : 0);
         throw pauseError();
       }
       if (response.status === 404) throw catalogError(404, 'Item não encontrado no MusicBrainz.');
       if (!response.ok) throw catalogError(503, 'O MusicBrainz não conseguiu atender a consulta.');
-      return await response.json();
+      const result = await response.json();
+      providerFailures = 0;
+      return result;
     } catch (error) {
       if (error.statusCode) throw error;
       throw catalogError(503, 'Não foi possível consultar o MusicBrainz. O acervo local continua disponível.');

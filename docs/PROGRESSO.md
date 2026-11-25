@@ -174,3 +174,11 @@ Correções:
 - Fallback: se a fonte do álbum não carregar, usa Bricolage/Instrument como fallback.
 
 Testes: 11/11 aprovados; sintaxe de `studio.js` verificada com `node --check`.
+
+## Pausa do MusicBrainz — 24/11/2026
+
+Uma busca inédita no serviço público `https://capa-ijy8.onrender.com/api/catalog/discover` retornou `unavailable:true`; o catálogo local foi servido corretamente. No cliente HTTP, respostas 429/503 sem `Retry-After` aplicavam somente quatro segundos de espera, causando novas tentativas frequentes quando o provedor não informa prazo.
+
+O cliente agora inicia espera de 60 segundos nesses casos e dobra progressivamente, até 30 minutos. O cabeçalho `Retry-After` continua respeitado quando pede prazo maior, e uma consulta bem-sucedida zera a sequência. Isso reduz novas recusas e não tenta contornar a pausa definida pelo MusicBrainz.
+
+Verificação: `node --test tests/catalog.test.mjs` aprovou 5/5, inclusive teste novo para espera progressiva e supressão de tentativas. `node --check` aprovou os dois módulos alterados. A execução completa de `npm test` apresentou duas falhas em `tests/cover-policy.test.mjs`, relacionadas ao comportamento de exibição de capas alterado anteriormente; não relacionadas ao MusicBrainz. A publicação ainda precisa concluir antes de a instância pública receber esta mudança.
