@@ -681,16 +681,16 @@ async function bindInstagram(ctx,root){
       if(current!==revision||!root.isConnected)return;
       const name='capa-story-'+entry.id+'.png',file=typeof File==='function'?new File([png],name,{type:'image/png'}):null;
       const shareable=canShareFile(file);
-      share.hidden=!shareable;share.disabled=!shareable;save.disabled=false;
+      share.hidden=typeof navigator.share!=='function';share.disabled=!shareable;save.disabled=false;
       save.classList.toggle('primary',!shareable);
-      guidance.textContent=shareable?'Escolha Instagram nas opções do dispositivo, se disponível. Você também pode baixar a imagem e selecioná-la ao criar um Story.':manual;
+      guidance.textContent=shareable?'Toque em Compartilhar e escolha Instagram no menu do dispositivo.':!window.isSecureContext?'O navegador exige HTTPS para abrir o menu de compartilhamento. Acesse por uma conexão HTTPS para enviar ao Instagram.':manual;
       status.textContent=image?'Capa encontrada. Imagem pronta para compartilhar.':'Arte editorial pronta para compartilhar.';
       save.onclick=()=>{downloadFile(png,name);status.textContent='Download solicitado.';guidance.textContent=manual;};
       share.onclick=async()=>{
         share.disabled=true;
         try{
           const result=await shareFile(file);
-          if(result==='unavailable'){status.textContent='O compartilhamento de arquivos está indisponível.';guidance.textContent=manual;save.focus();}
+          if(result==='unavailable'){status.textContent='O compartilhamento de arquivos está indisponível neste navegador.';guidance.textContent=window.isSecureContext?manual:'Abra o CAPA por HTTPS para compartilhar diretamente pelo menu do dispositivo.';save.focus();}
           else if(result==='cancelled')status.textContent='Compartilhamento cancelado. Sua arte continua disponível.';
           else status.textContent='O envio continua no aplicativo escolhido.';
         }finally{if(current===revision)share.disabled=false;}
