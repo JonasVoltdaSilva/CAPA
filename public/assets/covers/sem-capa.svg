@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Capa indisponível">
+  <rect width="640" height="640" fill="#27252a"/>
+  <g fill="none" stroke="#4d494e" stroke-width="2">
+    <circle cx="320" cy="285" r="180"/><circle cx="320" cy="285" r="167"/><circle cx="320" cy="285" r="154"/>
+    <circle cx="320" cy="285" r="140"/><circle cx="320" cy="285" r="126"/><circle cx="320" cy="285" r="111"/>
+  </g>
+  <circle cx="320" cy="285" r="66" fill="#a9a3a1"/><circle cx="320" cy="285" r="8" fill="#27252a"/>
+  <text x="320" y="548" text-anchor="middle" font-family="system-ui,sans-serif" font-size="23" fill="#c4bfbc">Capa indisponível</text>
+</svg>

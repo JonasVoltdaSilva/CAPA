@@ -1,0 +1,169 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-11-24",
+  "niveis": {
+    "1": "Identidade personalizada: álbum com tema pesquisado e configurado neste arquivo.",
+    "2": "Identidade semiautomática: cor extraída da capa combinada a um preset tipográfico licenciado.",
+    "3": "Tema padrão: design system oficial do CAPA."
+  },
+  "presetsNivel2": {
+    "cru": {
+      "rotulo": "Cru",
+      "fonteTitulo": "Instrument Sans",
+      "pesoTitulo": 700,
+      "caixaTitulo": "minusculas",
+      "alinhamento": "centro",
+      "fonteTexto": "Instrument Sans"
+    },
+    "editorial": {
+      "rotulo": "Editorial",
+      "fonteTitulo": "Instrument Serif",
+      "pesoTitulo": 400,
+      "caixaTitulo": "minusculas",
+      "alinhamento": "centro",
+      "fonteTexto": "Instrument Sans"
+    },
+    "classico": {
+      "rotulo": "Clássico",
+      "fonteTitulo": "Libre Baskerville",
+      "pesoTitulo": 400,
+      "caixaTitulo": "normal",
+      "alinhamento": "centro",
+      "fonteTexto": "Instrument Sans"
+    }
+  },
+  "identidades": [
+    {
+      "id": "brat",
+      "albumId": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841",
+      "artista": "Charli XCX",
+      "titulo": "BRAT",
+      "ano": 2024,
+      "nivel": 1,
+      "estilo": "cru",
+      "dossie": "brat/IDENTIDADE.md",
+      "paleta": {
+        "fundo": "#8ACE00",
+        "tinta": "#101208",
+        "destaque": "#101208",
+        "sobreDestaque": "#8ACE00"
+      },
+      "tipografia": {
+        "fonteTitulo": "Instrument Sans",
+        "pesoTitulo": 700,
+        "caixaTitulo": "minusculas",
+        "fonteTexto": "Instrument Sans",
+        "pesoTexto": 400
+      },
+      "composicao": {
+        "alinhamento": "centro",
+        "desfoqueTitulo": true,
+        "inverterComposicao": false,
+        "filete": true
+      },
+      "regras": [
+        "Verde ácido é a única cor de fundo; nunca combinar com gradiente.",
+        "Título em caixa baixa, centralizado, peso alto.",
+        "Nenhuma fotografia no fundo das artes desta identidade.",
+        "Estrelas e números em tinta escura, sem brilho."
+      ],
+      "fontesPesquisa": [
+        "https://www.billboard.com/music/pop/charli-xcx-brat-billboard-cover-story-interview-1235732025/",
+        "https://artdaily.com/news/172485/You-can-t-escape-this-color",
+        "https://www.wallpaper.com/design-interiors/charlixcx-brat-campaign-wins-wallpaper-design-award",
+        "https://fontsinuse.com/uses/61357/charli-xcx-brat-album-art-and-campaign"
+      ],
+      "licencasFontes": {
+        "Instrument Sans": "SIL Open Font License 1.1 — catálogo/original em https://fonts.google.com/specimen/Instrument+Sans"
+      }
+    },
+    {
+      "id": "sweetener",
+      "albumId": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300",
+      "artista": "Ariana Grande",
+      "titulo": "Sweetener",
+      "ano": 2018,
+      "nivel": 1,
+      "estilo": "editorial",
+      "dossie": "sweetener/IDENTIDADE.md",
+      "paleta": {
+        "fundo": "#F6E7DB",
+        "tinta": "#3A2A24",
+        "destaque": "#C4674B",
+        "sobreDestaque": "#F6E7DB"
+      },
+      "tipografia": {
+        "fonteTitulo": "Instrument Serif",
+        "pesoTitulo": 400,
+        "caixaTitulo": "minusculas",
+        "fonteTexto": "Instrument Sans",
+        "pesoTexto": 400
+      },
+      "composicao": {
+        "alinhamento": "centro",
+        "desfoqueTitulo": false,
+        "inverterComposicao": true,
+        "filete": true
+      },
+      "regras": [
+        "Fundo sempre claro (papel); tinta marrom profunda.",
+        "Título em serifada, caixa baixa.",
+        "A composição inverte a ordem natural dos blocos — o gesto de ponta-cabeça da referência.",
+        "Nada de preto puro: o contraste vem do marrom."
+      ],
+      "fontesPesquisa": [
+        "https://www.billboard.com/photos/ariana-grande-album-covers-ranked-1235621107/",
+        "https://www.seventeen.com/celebrity/music/a21635375/ariana-grande-sweetener-album-cover-art-upside-down-meaning/",
+        "https://vinylcoverart.com/records/ariana-grande-sweetener"
+      ],
+      "licencasFontes": {
+        "Instrument Serif": "SIL Open Font License 1.1 — catálogo/original em https://fonts.google.com/specimen/Instrument+Serif",
+        "Instrument Sans": "SIL Open Font License 1.1 — catalogo/original em https://fonts.google.com/specimen/Instrument+Sans"
+      }
+    },
+    {
+      "id": "positions",
+      "albumId": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c",
+      "artista": "Ariana Grande",
+      "titulo": "Positions",
+      "ano": 2020,
+      "nivel": 1,
+      "estilo": "classico",
+      "dossie": "positions/IDENTIDADE.md",
+      "paleta": {
+        "fundo": "#15140F",
+        "tinta": "#E9E2D3",
+        "destaque": "#9AA08B",
+        "sobreDestaque": "#15140F"
+      },
+      "tipografia": {
+        "fonteTitulo": "Libre Baskerville",
+        "pesoTitulo": 400,
+        "caixaTitulo": "normal",
+        "fonteTexto": "Instrument Sans",
+        "pesoTexto": 400
+      },
+      "composicao": {
+        "alinhamento": "centro",
+        "desfoqueTitulo": false,
+        "inverterComposicao": false,
+        "filete": true
+      },
+      "regras": [
+        "Fundo grafite quente; tinta marfim; um único verde-neutro como acento.",
+        "Título em serifada clássica, centralizado, com respiro generoso.",
+        "Sem caixa alta forçada: o wordmark da era é discreto.",
+        "Filete e estrelas finos, traço leve."
+      ],
+      "fontesPesquisa": [
+        "https://www.billboard.com/music/pop/ariana-grande-positions-album-covers-9473446/",
+        "https://en.wikipedia.org/wiki/Positions_(album)",
+        "https://elizlopez.com/projects/7239261"
+      ],
+      "licencasFontes": {
+        "Libre Baskerville": "SIL Open Font License 1.1 — catálogo/original em https://fonts.google.com/specimen/Libre+Baskerville",
+        "Instrument Sans": "SIL Open Font License 1.1 — catalogo/original em https://fonts.google.com/specimen/Instrument+Sans"
+      }
+    }
+  ]
+}

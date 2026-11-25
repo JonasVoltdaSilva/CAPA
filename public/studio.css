@@ -1,0 +1,88 @@
+/* Estúdio de compartilhamento — artes para Instagram. Tokens do design system do CAPA. */
+.st-root{margin-bottom:40px}
+.st-heading{margin-bottom:22px}
+.st-heading h1{font-size:clamp(30px,4.4vw,44px)}
+.st-heading p{color:var(--muted);margin-top:7px;max-width:56ch}
+.st-space{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,370px);gap:30px;align-items:start}
+.st-preview{position:sticky;top:calc(76px + env(safe-area-inset-top))}
+.st-proof{border:1px solid var(--line);border-radius:16px;background:#0c0e0b;padding:14px;box-shadow:0 22px 44px -22px #000c}
+.st-proof canvas{display:block;width:auto;height:auto;max-width:100%;max-height:min(74vh,940px);margin-inline:auto;border-radius:8px}
+.st-caption{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-size:13px;color:var(--muted)}
+.st-caption span:first-child{font-weight:650;color:var(--text)}
+.st-panel{display:flex;flex-direction:column;gap:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:20px}
+.st-panel .st-actions{margin-top:2px}
+.st-group{display:flex;flex-direction:column;gap:12px}
+.st-options{border:1px solid var(--line);border-radius:10px;background:#191b16;padding:0 14px}
+.st-options>summary{font-family:var(--display);font-weight:700;font-size:16px;padding:12px 0;cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px}
+.st-options>summary::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.st-options[open]>summary{border-bottom:1px solid var(--line);margin-bottom:12px}
+.st-options>.st-pair,.st-options>.st-custom-only{margin-bottom:12px}
+.st-pair{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px}
+.st-options .st-pair{grid-template-columns:minmax(0,1fr)}
+.st-preview,.st-panel,.st-pair>*{min-width:0}
+.st-panel :is(select,textarea,input:not([type=checkbox])){width:100%}
+.st-panel [hidden]{display:none!important}
+.st-options select,.st-options input[type=color]{width:100%}
+.st-note{font-size:12.5px;color:var(--muted);line-height:1.5;margin:2px 0}
+.st-swatches{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:10px}
+.st-swatches button{width:34px;height:34px;border-radius:50%;border:2px solid #ffffff2b;background:var(--swatch,var(--accent));cursor:pointer;padding:0}
+.st-swatches button:hover{transform:scale(1.08)}
+.st-swatches button:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+.st-swatches .st-palette{width:auto;height:34px;border-radius:8px;background:#24261f;border:1px solid var(--line);color:var(--text);font-size:12.5px;font-weight:650;padding:0 13px}
+.st-swatches .st-palette:hover{background:#2c2f26}
+.st-swatches .st-palette:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.st-order{list-style:none;display:flex;flex-direction:column;gap:7px;margin:0;padding:0}
+.st-order li{display:flex;align-items:center;gap:8px;background:#191b16;border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+.st-order li>span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13.5px}
+.st-order button{width:30px;height:30px;flex:none;border-radius:6px;border:1px solid var(--line);background:#24261f;color:var(--text);cursor:pointer;font-size:13px;line-height:1}
+.st-order button:hover:not(:disabled){background:#2f3229;color:var(--accent)}
+.st-order button:disabled{opacity:.35;cursor:not-allowed}
+.st-order button[data-remove]:hover{color:#e89480}
+.st-checks{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:4px}
+.st-checks label{display:flex;align-items:center;gap:7px;font-size:13.5px;font-weight:500}
+.st-actions{display:flex;flex-wrap:wrap;gap:10px}
+.st-actions .btn{flex:1;min-width:132px}
+/* Tema: controles manuais só valem no modo personalizado */
+.st-root[data-theme="capa"] .st-custom-only,.st-root[data-theme="album"] .st-custom-only{display:none}
+.st-root[data-theme="album"] #st-theme-note{color:var(--accent)}
+@media(max-width:960px){
+  .st-space{grid-template-columns:minmax(0,1fr)}
+  .st-preview{position:static}
+  .st-proof canvas{max-height:66vh}
+}
+@media(max-width:520px){
+  .st-panel{padding:15px}
+  .st-pair{grid-template-columns:minmax(0,1fr)}
+  .st-actions .btn{min-width:100%}
+  .st-order li>span{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  .st-swatches button:hover{transform:none}
+}
+@media(pointer:coarse){
+  .st-order button,.st-swatches button{min-width:44px;min-height:44px}
+}
+
+.share-destinations{width:min(420px,calc(100vw - 32px));max-width:100%;padding:24px;background:var(--surface,#1b1d19);color:var(--text,#f5f1e8);border:1px solid var(--line,#383a33);border-radius:14px;margin:auto}
+.share-destinations::backdrop{background:#050604ac}
+.share-destinations .share-options,.ig-actions{display:grid;gap:10px}
+.share-destinations .btn,.ig-actions .btn{min-height:46px;justify-content:center}
+.ig-root .st-space{grid-template-columns:minmax(0,500px) minmax(260px,340px);gap:clamp(24px,5vw,68px)}
+.ig-preview{margin:0}
+.ig-preview .st-proof canvas{max-height:min(72vh,825px)}
+.ig-panel h2{margin:0;font-size:clamp(22px,3vw,30px);overflow-wrap:anywhere}
+.ig-panel>p{margin:0}
+.ig-panel>p:empty{display:none}
+.ig-panel #ig-status,.ig-guidance,.ig-privacy{font-size:.91rem;color:var(--muted);line-height:1.6}
+.ig-panel .ig-privacy{border-left:2px solid var(--accent);padding-left:12px}
+.ig-panel .text-link{min-height:44px;align-self:flex-start}
+@media(max-width:760px){
+  .ig-root .st-space{grid-template-columns:minmax(0,1fr);gap:16px}
+  .ig-preview{position:static}
+  .ig-preview .st-proof canvas{max-height:min(53svh,680px)}
+}
+
+.st-proof canvas[hidden]{display:none}
+.ig-root[data-cover-state=carregando] .st-proof,.ig-root[data-cover-state=buscando] .st-proof{min-height:220px;display:grid;place-items:center}
+.ig-root[data-cover-state=carregando] .st-proof:before{content:'Carregando capa…';color:var(--muted)}
+.ig-root[data-cover-state=buscando] .st-proof:before{content:'Procurando outra fonte…';color:var(--muted)}

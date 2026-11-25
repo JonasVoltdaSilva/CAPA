@@ -1,0 +1,1408 @@
+[
+  {
+    "id": "clube-da-esquina",
+    "title": "Clube da Esquina",
+    "artist": "Milton Nascimento & Lô Borges",
+    "artistId": "milton-nascimento",
+    "artists": [
+      {
+        "id": "milton-nascimento",
+        "name": "Milton Nascimento"
+      },
+      {
+        "id": "lo-borges",
+        "name": "Lô Borges"
+      }
+    ],
+    "year": 1972,
+    "date": "1972",
+    "genre": "MPB",
+    "type": "Álbum",
+    "source": "https://musicbrainz.org/release/53c31a17-289a-4544-a3f9-5c53e06f3e05",
+    "cover": "https://coverartarchive.org/release/53c31a17-289a-4544-a3f9-5c53e06f3e05/front-500",
+    "exportCover": false,
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/53c31a17-289a-4544-a3f9-5c53e06f3e05/cover-art",
+    "tracks": [
+      {
+        "id": "clube-da-esquina-1",
+        "title": "Tudo que você podia ser",
+        "duration": 176,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "clube-da-esquina-2",
+        "title": "Cais",
+        "duration": 165,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "clube-da-esquina-3",
+        "title": "O trem azul",
+        "duration": 245,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "clube-da-esquina-4",
+        "title": "Saídas e bandeiras nº 1",
+        "duration": 45,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "clube-da-esquina-5",
+        "title": "Nuvem cigana",
+        "duration": 180,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "clube-da-esquina-6",
+        "title": "Cravo e canela",
+        "duration": 152,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "clube-da-esquina-7",
+        "title": "Dos cruces",
+        "duration": 322,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "clube-da-esquina-8",
+        "title": "Um girassol da côr de seu cabelo",
+        "duration": 253,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "clube-da-esquina-9",
+        "title": "San Vicente",
+        "duration": 167,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "clube-da-esquina-10",
+        "title": "Estrêlas",
+        "duration": 29,
+        "disc": 1,
+        "position": 10
+      },
+      {
+        "id": "clube-da-esquina-11",
+        "title": "Clube da Esquina nº 2",
+        "duration": 219,
+        "disc": 1,
+        "position": 11
+      },
+      {
+        "id": "clube-da-esquina-12",
+        "title": "Paisagem da janela",
+        "duration": 178,
+        "disc": 2,
+        "position": 1
+      },
+      {
+        "id": "clube-da-esquina-13",
+        "title": "Me deixa em paz",
+        "duration": 185,
+        "disc": 2,
+        "position": 2
+      },
+      {
+        "id": "clube-da-esquina-14",
+        "title": "Os povos",
+        "duration": 270,
+        "disc": 2,
+        "position": 3
+      },
+      {
+        "id": "clube-da-esquina-15",
+        "title": "Saídas e bandeiras nº 2",
+        "duration": 90,
+        "disc": 2,
+        "position": 4
+      },
+      {
+        "id": "clube-da-esquina-16",
+        "title": "Um gôsto de Sol",
+        "duration": 260,
+        "disc": 2,
+        "position": 5
+      },
+      {
+        "id": "clube-da-esquina-17",
+        "title": "Pelo amor de Deus",
+        "duration": 126,
+        "disc": 2,
+        "position": 6
+      },
+      {
+        "id": "clube-da-esquina-18",
+        "title": "Lilia",
+        "duration": 153,
+        "disc": 2,
+        "position": 7
+      },
+      {
+        "id": "clube-da-esquina-19",
+        "title": "Trem de doido",
+        "duration": 238,
+        "disc": 2,
+        "position": 8
+      },
+      {
+        "id": "clube-da-esquina-20",
+        "title": "Nada será como antes",
+        "duration": 203,
+        "disc": 2,
+        "position": 9
+      },
+      {
+        "id": "clube-da-esquina-21",
+        "title": "Ao que vai nascer",
+        "duration": 200,
+        "disc": 2,
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "ancestral",
+    "title": "Ancestral",
+    "artist": "Sertanília",
+    "artistId": "sertanilia",
+    "artists": [
+      {
+        "id": "sertanilia",
+        "name": "Sertanília"
+      }
+    ],
+    "year": 2012,
+    "date": "2012-03-25",
+    "genre": "MPB",
+    "type": "Álbum",
+    "source": "https://sertanilia.bandcamp.com/album/ancestral",
+    "cover": "/assets/covers/ancestral.jpg",
+    "exportCover": true,
+    "credit": "Pietro Leal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Capa_do_CD_Ancestral_(Sertan%C3%ADlia)_por_Pietro_Leal.jpg",
+    "tracks": [
+      {
+        "id": "ancestral-1",
+        "title": "Areia do mar",
+        "duration": 53,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "ancestral-2",
+        "title": "Sambada de reis",
+        "duration": 198,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "ancestral-3",
+        "title": "Incendeia (Todo amor desse mundo)",
+        "duration": 199,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "ancestral-4",
+        "title": "Aguaceiro",
+        "duration": 159,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "ancestral-5",
+        "title": "Tempo de sereno",
+        "duration": 277,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "ancestral-6",
+        "title": "Canto de chegada",
+        "duration": 81,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "ancestral-7",
+        "title": "Nobre Folia",
+        "duration": 268,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "ancestral-8",
+        "title": "Pombinha do céu",
+        "duration": 222,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "ancestral-9",
+        "title": "Perfume de flor",
+        "duration": 298,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "ancestral-10",
+        "title": "Ciranda do fim do mundo",
+        "duration": 207,
+        "disc": 1,
+        "position": 10
+      },
+      {
+        "id": "ancestral-11",
+        "title": "Eu vou embora daqui",
+        "duration": 216,
+        "disc": 1,
+        "position": 11
+      },
+      {
+        "id": "ancestral-12",
+        "title": "Meus buritizais levados de verde",
+        "duration": 372,
+        "disc": 1,
+        "position": 12
+      },
+      {
+        "id": "ancestral-13",
+        "title": "Pras bandas de lá",
+        "duration": 284,
+        "disc": 1,
+        "position": 13
+      },
+      {
+        "id": "ancestral-14",
+        "title": "Canto de despedida",
+        "duration": 54,
+        "disc": 1,
+        "position": 14
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Capa_do_CD_Ancestral_%28Sertan%C3%ADlia%29_por_Pietro_Leal.jpg",
+    "coverDimensions": {
+      "width": 600,
+      "height": 616
+    }
+  },
+  {
+    "id": "polygondwanaland",
+    "title": "Polygondwanaland",
+    "artist": "King Gizzard & the Lizard Wizard",
+    "artistId": "king-gizzard-the-lizard-wizard",
+    "artists": [
+      {
+        "id": "king-gizzard-the-lizard-wizard",
+        "name": "King Gizzard & the Lizard Wizard"
+      }
+    ],
+    "year": 2017,
+    "date": "2017-11-17",
+    "genre": "Rock psicodélico",
+    "type": "Álbum",
+    "source": "https://musicbrainz.org/release/4333ef41-d85c-4098-a790-c3e7401c8406",
+    "cover": "/assets/covers/polygondwanaland.jpg",
+    "exportCover": true,
+    "credit": "Jason Galea",
+    "license": "Domínio público",
+    "licenseUrl": "https://kinggizzardandthelizardwizard.com/polygondwanaland",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Polygondwanaland.jpg",
+    "tracks": [
+      {
+        "id": "polygondwanaland-1",
+        "title": "Crumbling Castle",
+        "duration": 644,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "polygondwanaland-2",
+        "title": "Polygondwanaland",
+        "duration": 213,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "polygondwanaland-3",
+        "title": "The Castle in the Air",
+        "duration": 168,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "polygondwanaland-4",
+        "title": "Deserted Dunes Welcome Weary Feet",
+        "duration": 214,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "polygondwanaland-5",
+        "title": "Inner Cell",
+        "duration": 236,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "polygondwanaland-6",
+        "title": "Loyalty",
+        "duration": 219,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "polygondwanaland-7",
+        "title": "Horology",
+        "duration": 172,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "polygondwanaland-8",
+        "title": "Tetrachromacy",
+        "duration": 211,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "polygondwanaland-9",
+        "title": "Searching…",
+        "duration": 184,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "polygondwanaland-10",
+        "title": "The Fourth Colour",
+        "duration": 372,
+        "disc": 1,
+        "position": 10
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/6/62/Polygondwanaland.jpg",
+    "coverDimensions": {
+      "width": 4000,
+      "height": 4000
+    }
+  },
+  {
+    "id": "reviver",
+    "title": "Reviver",
+    "artist": "Bona Fortuna",
+    "artistId": "bona-fortuna",
+    "artists": [
+      {
+        "id": "bona-fortuna",
+        "name": "Bona Fortuna"
+      }
+    ],
+    "year": 2014,
+    "date": "2014-07-12",
+    "genre": "Folk rock",
+    "type": "Álbum",
+    "source": "https://open.spotify.com/intl-pt/album/261D71cNeBhDgJqaA2V3GA",
+    "cover": "/assets/covers/reviver.jpg",
+    "exportCover": true,
+    "credit": "Igor Andrade / Bona Fortuna (Filipe Oliveira)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Capa_%22Reviver%22.jpg",
+    "tracks": [
+      {
+        "id": "reviver-1",
+        "title": "A Solidão",
+        "duration": 268,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "reviver-2",
+        "title": "Aprender a Viver",
+        "duration": 164,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "reviver-3",
+        "title": "Por uma Felicidade",
+        "duration": 256,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "reviver-4",
+        "title": "Preto e Branco",
+        "duration": 207,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "reviver-5",
+        "title": "Cândido e o Eldorado",
+        "duration": 187,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "reviver-6",
+        "title": "O Leviatã",
+        "duration": 226,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "reviver-7",
+        "title": "De Pouco em Pouco",
+        "duration": 102,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "reviver-8",
+        "title": "O Que Ficou Pra Trás",
+        "duration": 281,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "reviver-9",
+        "title": "Recado",
+        "duration": 257,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "reviver-10",
+        "title": "Essa Força",
+        "duration": 220,
+        "disc": 1,
+        "position": 10
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Capa_%22Reviver%22.jpg",
+    "coverDimensions": {
+      "width": 2362,
+      "height": 2362
+    }
+  },
+  {
+    "id": "the-slip",
+    "title": "The Slip",
+    "artist": "Nine Inch Nails",
+    "artistId": "nine-inch-nails",
+    "artists": [
+      {
+        "id": "nine-inch-nails",
+        "name": "Nine Inch Nails"
+      }
+    ],
+    "year": 2008,
+    "date": "2008-05-05",
+    "genre": "Rock industrial",
+    "type": "Álbum",
+    "source": "https://musicbrainz.org/release/12b57d46-a192-499e-a91f-7da66790a1c1",
+    "cover": "/assets/covers/the-slip.jpg",
+    "exportCover": false,
+    "credit": "Rob Sheridan & Trent Reznor",
+    "license": "CC BY-NC-SA 3.0 US",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+    "coverSource": "https://wiki.creativecommons.org/wiki/Nine_Inch_Nails_The_Slip",
+    "tracks": [
+      {
+        "id": "the-slip-1",
+        "title": "999,999",
+        "duration": 86,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "the-slip-2",
+        "title": "1,000,000",
+        "duration": 236,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "the-slip-3",
+        "title": "Letting You",
+        "duration": 230,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "the-slip-4",
+        "title": "Discipline",
+        "duration": 259,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "the-slip-5",
+        "title": "Echoplex",
+        "duration": 285,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "the-slip-6",
+        "title": "Head Down",
+        "duration": 295,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "the-slip-7",
+        "title": "Lights in the Sky",
+        "duration": 210,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "the-slip-8",
+        "title": "Corona Radiata",
+        "duration": 454,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "the-slip-9",
+        "title": "The Four of Us Are Dying",
+        "duration": 278,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "the-slip-10",
+        "title": "Demon Seed",
+        "duration": 298,
+        "disc": 1,
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "the-sour-truth",
+    "title": "The Sour Truth (feat Sonic Boom)",
+    "artist": "Black Market Karma",
+    "artistId": "black-market-karma",
+    "artists": [
+      {
+        "id": "black-market-karma",
+        "name": "Black Market Karma"
+      }
+    ],
+    "year": 2023,
+    "date": "2023-08-16",
+    "genre": "Rock psicodélico",
+    "type": "Single",
+    "source": "https://blackmarketkarma.bandcamp.com/album/the-sour-truth-feat-sonic-boom",
+    "cover": "/assets/covers/the-sour-truth.jpg",
+    "exportCover": true,
+    "credit": "CyllanWednesday",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Black_Market_Karma_and_Sonic_Boom_-_The_Sour_Truth.jpg",
+    "tracks": [
+      {
+        "id": "the-sour-truth-1",
+        "title": "The Sour Truth (feat Sonic Boom)",
+        "duration": 247,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "the-sour-truth-2",
+        "title": "Wisdom Shifter",
+        "duration": 314,
+        "disc": 1,
+        "position": 2
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Black_Market_Karma_and_Sonic_Boom_-_The_Sour_Truth.jpg",
+    "coverDimensions": {
+      "width": 2048,
+      "height": 2048
+    }
+  },
+  {
+    "id": "bona-fortuna",
+    "title": "Bona Fortuna",
+    "artist": "Bona Fortuna",
+    "artistId": "bona-fortuna",
+    "artists": [
+      {
+        "id": "bona-fortuna",
+        "name": "Bona Fortuna"
+      }
+    ],
+    "year": 2012,
+    "date": "2012-02-01",
+    "genre": "Folk rock",
+    "type": "Álbum",
+    "source": "https://immub.org/album/bona-fortuna",
+    "cover": "/assets/covers/bona-fortuna.jpg",
+    "exportCover": true,
+    "credit": "Filipe Oliveira / Bona Fortuna",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Capa_%22Bona_Fortuna%22.jpg",
+    "tracks": [
+      {
+        "id": "bona-fortuna-1",
+        "title": "O Que Você Vê",
+        "duration": 156,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "bona-fortuna-2",
+        "title": "Tormenta",
+        "duration": 198,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "bona-fortuna-3",
+        "title": "Privilégio",
+        "duration": 201,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "bona-fortuna-4",
+        "title": "Ornamentos",
+        "duration": 109,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "bona-fortuna-5",
+        "title": "Parece Que Perdi a Fé",
+        "duration": 156,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "bona-fortuna-6",
+        "title": "Memento Mori",
+        "duration": 206,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "bona-fortuna-7",
+        "title": "O Duelo",
+        "duration": 185,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "bona-fortuna-8",
+        "title": "De Mala e Cuia",
+        "duration": 108,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "bona-fortuna-9",
+        "title": "No Bar",
+        "duration": 236,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "bona-fortuna-10",
+        "title": "Inquietação",
+        "duration": 128,
+        "disc": 1,
+        "position": 10
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Capa_%22Bona_Fortuna%22.jpg",
+    "coverDimensions": {
+      "width": 1418,
+      "height": 1418
+    }
+  },
+  {
+    "id": "capturas",
+    "title": "Capturas del Único Camino",
+    "artist": "Damián Anache",
+    "artistId": "damian-anache",
+    "artists": [
+      {
+        "id": "damian-anache",
+        "name": "Damián Anache"
+      }
+    ],
+    "year": 2014,
+    "date": "2014-12-11",
+    "genre": "Eletroacústica",
+    "type": "Álbum",
+    "source": "https://damiananache.bandcamp.com/album/capturas-del-unico-camino",
+    "cover": "/assets/covers/capturas.jpg",
+    "exportCover": true,
+    "credit": "Damián Anache",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "coverSource": "https://commons.wikimedia.org/wiki/File:Capturas_del_unico_camino_-_Damian_Anache_-_Portada.jpg",
+    "tracks": [
+      {
+        "id": "capturas-1",
+        "title": "Paisaje Primero",
+        "duration": 855,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "capturas-2",
+        "title": "Paisaje Propio",
+        "duration": 855,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "capturas-3",
+        "title": "Paisaje Artificial",
+        "duration": 855,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "capturas-4",
+        "title": "Paisaje Natural",
+        "duration": 908,
+        "disc": 1,
+        "position": 4
+      }
+    ],
+    "coverHighResolution": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Capturas_del_unico_camino_-_Damian_Anache_-_Portada.jpg",
+    "coverDimensions": {
+      "width": 827,
+      "height": 827
+    }
+  },
+  {
+    "id": "acabou-chorare",
+    "title": "Acabou Chorare",
+    "artist": "Novos Baianos",
+    "artistId": "novos-baianos",
+    "artists": [
+      {
+        "id": "novos-baianos",
+        "name": "Novos Baianos"
+      }
+    ],
+    "year": 1972,
+    "date": "1972",
+    "genre": "MPB",
+    "type": "Álbum",
+    "source": "https://musicbrainz.org/release/2b7fa52f-2123-4d14-b84e-f8a8b23e4cbd",
+    "cover": "https://coverartarchive.org/release/2b7fa52f-2123-4d14-b84e-f8a8b23e4cbd/front-500",
+    "exportCover": false,
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/2b7fa52f-2123-4d14-b84e-f8a8b23e4cbd/cover-art",
+    "editionYear": 2006,
+    "tracks": [
+      {
+        "id": "acabou-chorare-1",
+        "title": "Brasil pandeiro",
+        "duration": 235,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "acabou-chorare-2",
+        "title": "Preta, pretinha",
+        "duration": 397,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "acabou-chorare-3",
+        "title": "Tinindo, trincando",
+        "duration": 204,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "acabou-chorare-4",
+        "title": "Swing de Campo Grande",
+        "duration": 189,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "acabou-chorare-5",
+        "title": "Acabou chorare",
+        "duration": 253,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "acabou-chorare-6",
+        "title": "Mistério do planeta",
+        "duration": 217,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "acabou-chorare-7",
+        "title": "A menina dança",
+        "duration": 232,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "acabou-chorare-8",
+        "title": "Besta é tu",
+        "duration": 264,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "acabou-chorare-9",
+        "title": "Um bilhete para Didi",
+        "duration": 172,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "acabou-chorare-10",
+        "title": "Preta, pretinha",
+        "duration": 204,
+        "disc": 1,
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "construcao",
+    "title": "Construção",
+    "artist": "Chico Buarque",
+    "artistId": "chico-buarque",
+    "artists": [
+      {
+        "id": "chico-buarque",
+        "name": "Chico Buarque"
+      }
+    ],
+    "year": 1971,
+    "date": "1971",
+    "genre": "MPB",
+    "type": "Álbum",
+    "source": "https://musicbrainz.org/release/02256b45-45d2-38e3-9d0b-2e233ac49cc5",
+    "cover": "https://coverartarchive.org/release/02256b45-45d2-38e3-9d0b-2e233ac49cc5/front-500",
+    "exportCover": false,
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/02256b45-45d2-38e3-9d0b-2e233ac49cc5/cover-art",
+    "editionYear": 1993,
+    "tracks": [
+      {
+        "id": "construcao-1",
+        "title": "Deus lhe pague",
+        "duration": 200,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "construcao-2",
+        "title": "Cotidiano",
+        "duration": 171,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "construcao-3",
+        "title": "Desalento",
+        "duration": 169,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "construcao-4",
+        "title": "Construção",
+        "duration": 385,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "construcao-5",
+        "title": "Cordão",
+        "duration": 153,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "construcao-6",
+        "title": "Olha Maria",
+        "duration": 237,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "construcao-7",
+        "title": "Samba de Orly",
+        "duration": 162,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "construcao-8",
+        "title": "Valsinha",
+        "duration": 121,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "construcao-9",
+        "title": "Minha história (Gesùbambino)",
+        "duration": 183,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "construcao-10",
+        "title": "Acalanto",
+        "duration": 100,
+        "disc": 1,
+        "position": 10
+      }
+    ]
+  },
+  {
+    "id": "cru",
+    "title": "Cru",
+    "artist": "Liniker e os Caramelows",
+    "artistId": "liniker-e-os-caramelows",
+    "artists": [
+      {
+        "id": "liniker-e-os-caramelows",
+        "name": "Liniker e os Caramelows"
+      }
+    ],
+    "year": 2015,
+    "date": "2015",
+    "genre": "Soul",
+    "type": "EP",
+    "source": "https://immub.org/album/cru-1",
+    "cover": "/assets/covers/sem-capa.svg",
+    "exportCover": false,
+    "tracks": [
+      {
+        "id": "cru-1",
+        "title": "Zero",
+        "duration": 364,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "cru-2",
+        "title": "Louise du Brésil",
+        "duration": 223,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "cru-3",
+        "title": "Caeu",
+        "duration": 227,
+        "disc": 1,
+        "position": 3
+      }
+    ]
+  },
+  {
+    "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841",
+    "title": "BRAT",
+    "artist": "Charli xcx",
+    "artistId": "mb-260b6184-8828-48eb-945c-bc4cb6fc34ca",
+    "artists": [
+      {
+        "id": "mb-260b6184-8828-48eb-945c-bc4cb6fc34ca",
+        "name": "Charli xcx"
+      }
+    ],
+    "year": 2024,
+    "date": "2024-06-07",
+    "type": "Álbum",
+    "genre": "",
+    "cover": "https://coverartarchive.org/release/0aa87f3e-a91a-4355-ad9e-6d60be378841/front-500",
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/0aa87f3e-a91a-4355-ad9e-6d60be378841/cover-art",
+    "exportCover": false,
+    "source": "https://musicbrainz.org/release/0aa87f3e-a91a-4355-ad9e-6d60be378841",
+    "tracks": [
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-1",
+        "title": "360",
+        "duration": 134,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-2",
+        "title": "Club classics",
+        "duration": 153,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-3",
+        "title": "Sympathy is a knife",
+        "duration": 151,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-4",
+        "title": "I might say something stupid",
+        "duration": 109,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-5",
+        "title": "Talk talk",
+        "duration": 162,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-6",
+        "title": "Von dutch",
+        "duration": 164,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-7",
+        "title": "Everything is romantic",
+        "duration": 203,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-8",
+        "title": "Rewind",
+        "duration": 168,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-9",
+        "title": "So I",
+        "duration": 211,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-10",
+        "title": "Girl, so confusing",
+        "duration": 175,
+        "disc": 1,
+        "position": 10
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-11",
+        "title": "Apple",
+        "duration": 152,
+        "disc": 1,
+        "position": 11
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-12",
+        "title": "B2b",
+        "duration": 178,
+        "disc": 1,
+        "position": 12
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-13",
+        "title": "Mean girls",
+        "duration": 189,
+        "disc": 1,
+        "position": 13
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-14",
+        "title": "I think about it all the time",
+        "duration": 136,
+        "disc": 1,
+        "position": 14
+      },
+      {
+        "id": "mb-0aa87f3e-a91a-4355-ad9e-6d60be378841-1-15",
+        "title": "365",
+        "duration": 204,
+        "disc": 1,
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300",
+    "title": "Sweetener",
+    "artist": "Ariana Grande",
+    "artistId": "mb-f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+    "artists": [
+      {
+        "id": "mb-f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "name": "Ariana Grande"
+      }
+    ],
+    "year": 2018,
+    "date": "2018-08-17",
+    "type": "Álbum",
+    "genre": "",
+    "cover": "https://coverartarchive.org/release/029bb5e7-f051-4a0f-8c57-a5b89d914300/front-500",
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/029bb5e7-f051-4a0f-8c57-a5b89d914300/cover-art",
+    "exportCover": false,
+    "source": "https://musicbrainz.org/release/029bb5e7-f051-4a0f-8c57-a5b89d914300",
+    "tracks": [
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-1",
+        "title": "raindrops (an angel cried)",
+        "duration": 38,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-2",
+        "title": "blazed",
+        "duration": 196,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-3",
+        "title": "the light is coming",
+        "duration": 228,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-4",
+        "title": "R.E.M.",
+        "duration": 246,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-5",
+        "title": "God is a woman",
+        "duration": 198,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-6",
+        "title": "sweetener",
+        "duration": 208,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-7",
+        "title": "successful",
+        "duration": 227,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-8",
+        "title": "everytime",
+        "duration": 172,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-9",
+        "title": "breathin",
+        "duration": 198,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-10",
+        "title": "no tears left to cry",
+        "duration": 206,
+        "disc": 1,
+        "position": 10
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-11",
+        "title": "borderline",
+        "duration": 178,
+        "disc": 1,
+        "position": 11
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-12",
+        "title": "better off",
+        "duration": 171,
+        "disc": 1,
+        "position": 12
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-13",
+        "title": "goodnight n go",
+        "duration": 190,
+        "disc": 1,
+        "position": 13
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-14",
+        "title": "pete davidson",
+        "duration": 74,
+        "disc": 1,
+        "position": 14
+      },
+      {
+        "id": "mb-029bb5e7-f051-4a0f-8c57-a5b89d914300-1-15",
+        "title": "get well soon",
+        "duration": 322,
+        "disc": 1,
+        "position": 15
+      }
+    ]
+  },
+  {
+    "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c",
+    "title": "positions",
+    "artist": "Ariana Grande",
+    "artistId": "mb-f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+    "artists": [
+      {
+        "id": "mb-f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+        "name": "Ariana Grande"
+      }
+    ],
+    "year": 2020,
+    "date": "2020-10-30",
+    "type": "Álbum",
+    "genre": "",
+    "cover": "https://coverartarchive.org/release/9ad6641b-e9c6-462e-a039-f3255ded0c2c/front-500",
+    "credit": "Cover Art Archive",
+    "coverSource": "https://musicbrainz.org/release/9ad6641b-e9c6-462e-a039-f3255ded0c2c/cover-art",
+    "exportCover": false,
+    "source": "https://musicbrainz.org/release/9ad6641b-e9c6-462e-a039-f3255ded0c2c",
+    "tracks": [
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-1",
+        "title": "shut up",
+        "duration": 158,
+        "disc": 1,
+        "position": 1
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-2",
+        "title": "34+35",
+        "duration": 174,
+        "disc": 1,
+        "position": 2
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-3",
+        "title": "motive",
+        "duration": 168,
+        "disc": 1,
+        "position": 3
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-4",
+        "title": "just like magic",
+        "duration": 150,
+        "disc": 1,
+        "position": 4
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-5",
+        "title": "off the table",
+        "duration": 240,
+        "disc": 1,
+        "position": 5
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-6",
+        "title": "six thirty",
+        "duration": 184,
+        "disc": 1,
+        "position": 6
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-7",
+        "title": "safety net",
+        "duration": 208,
+        "disc": 1,
+        "position": 7
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-8",
+        "title": "my hair",
+        "duration": 158,
+        "disc": 1,
+        "position": 8
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-9",
+        "title": "nasty",
+        "duration": 201,
+        "disc": 1,
+        "position": 9
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-10",
+        "title": "west side",
+        "duration": 132,
+        "disc": 1,
+        "position": 10
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-11",
+        "title": "love language",
+        "duration": 180,
+        "disc": 1,
+        "position": 11
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-12",
+        "title": "positions",
+        "duration": 172,
+        "disc": 1,
+        "position": 12
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-13",
+        "title": "obvious",
+        "duration": 147,
+        "disc": 1,
+        "position": 13
+      },
+      {
+        "id": "mb-9ad6641b-e9c6-462e-a039-f3255ded0c2c-1-14",
+        "title": "pov",
+        "duration": 202,
+        "disc": 1,
+        "position": 14
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+const cacheName = 'capa-public-v1';
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(cacheName).then(cache => cache.addAll(['/offline.html','/style.css','/assets/icon-192.png'])));
+});
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('capa-public-') && key !== cacheName).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+});
+self.addEventListener('fetch', event => {
+  const {request} = event;
+  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  if (request.mode === 'navigate') {
+    event.respondWith(fetch(request).catch(() => caches.match('/offline.html')));
+  } else if (new URL(request.url).pathname === '/style.css') {
+    event.respondWith(fetch(request).catch(() => caches.match('/style.css')));
+  }
+});
