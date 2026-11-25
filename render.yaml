@@ -2,23 +2,19 @@ services:
   - type: web
     name: capa
     runtime: node
-    plan: starter
+    plan: free
     region: ohio
     branch: main
     buildCommand: npm install --omit=dev
     startCommand: npm start
     healthCheckPath: /
-    disk:
-      name: capa-data
-      mountPath: /var/data
-      sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: 24.21.0
       - key: HOST
         value: 0.0.0.0
       - key: DATA_DIR
-        value: /var/data
+        value: /tmp/capa-data
       - key: TRUST_PROXY
         value: loopback
       - key: APP_ORIGIN

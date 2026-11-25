@@ -2,7 +2,7 @@
 
 ## Hospedagem no Render
 
-O repositório inclui `render.yaml`. No dashboard do Render, crie um Blueprint ligado ao GitHub e selecione este repositório e a branch `main`. O serviço usa Node 24 e um disco persistente montado em `/var/data` para manter o SQLite entre implantações. Esse tipo de serviço é pago. Configure `APP_ORIGIN` com o endereço HTTPS que o Render atribuir ao serviço (por exemplo, `https://capa.onrender.com`) e `MUSICBRAINZ_CONTACT` com o contato institucional escolhido. O Render faz deploy automaticamente quando há novos commits na branch `main`.
+O repositório inclui `render.yaml`. No dashboard do Render, crie um Blueprint ligado ao GitHub e selecione este repositório e a branch `main`. A configuração atual usa instância web gratuita em Node 24. O serviço pode dormir após 15 minutos sem visitas e seu sistema de arquivos é temporário: o SQLite, contas e avaliações podem ser apagados ao reiniciar, dormir ou implantar novamente. Esta opção serve para demonstração, não para manter uma comunidade com dados persistentes. Configure `APP_ORIGIN` com o endereço HTTPS que o Render atribuir ao serviço (por exemplo, `https://capa.onrender.com`) e `MUSICBRAINZ_CONTACT` com o contato institucional escolhido. O Render faz deploy automaticamente quando há novos commits na branch `main`.
 
 ## Processo e armazenamento
 
