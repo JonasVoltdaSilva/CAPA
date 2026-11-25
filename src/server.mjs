@@ -208,7 +208,7 @@ export async function createApp(options = {}) {
 
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {
   const {server} = await createApp();
-  const port = Number(process.env.PORT || 3000), host = process.env.HOST || '127.0.0.1';
+  const port = Number(process.env.PORT || 3000), host = process.env.HOST || '0.0.0.0';
   server.listen(port,host,()=>console.log('CAPA em http://' + host + ':' + server.address().port));
   for (const signal of ['SIGTERM','SIGINT']) process.once(signal,()=>server.close());
 }

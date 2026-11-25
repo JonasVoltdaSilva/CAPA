@@ -1,5 +1,9 @@
 # Operação do CAPA
 
+## Hospedagem no Render
+
+O repositório inclui `render.yaml`. No dashboard do Render, crie um Blueprint ligado ao GitHub e selecione este repositório e a branch `main`. O serviço usa Node 24 e um disco persistente montado em `/var/data` para manter o SQLite entre implantações. Esse tipo de serviço é pago. Configure `APP_ORIGIN` com o endereço HTTPS que o Render atribuir ao serviço (por exemplo, `https://capa.onrender.com`) e `MUSICBRAINZ_CONTACT` com o contato institucional escolhido. O Render faz deploy automaticamente quando há novos commits na branch `main`.
+
 ## Processo e armazenamento
 
 Use Node.js 24 com `node:sqlite`. O processo serve o navegador e a API pela mesma origem. Para experimentar na máquina, execute `npm start` na raiz e abra `http://127.0.0.1:3000`. A primeira execução cria `data/capa.sqlite`. A raiz de desenvolvimento está no OneDrive. Em uma instalação com usuários reais, configure um volume local persistente com acesso restrito à conta do serviço. O SQLite usa WAL e pode manter arquivos auxiliares ao lado do banco.
